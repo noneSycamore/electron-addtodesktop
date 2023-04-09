@@ -4,7 +4,7 @@ Add electron window to Desktop( Only Windows )
 
 For certain considerations, I place the window here:
 - -WorkerW
-- --Your Window (*)
+- --Your Window *
 - --SHELLDLL_DefView
 - -Progman
 
