@@ -18,5 +18,12 @@
     "gypfile": true,
     "devDependencies": {
         "electron": "^24.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/noneSycamore/electron-addtodesktop"
+    },
+    "bugs": {
+        "url": "https://github.com/noneSycamore/electron-addtodesktop/issues"
     }
 }
