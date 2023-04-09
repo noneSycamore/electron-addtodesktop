@@ -1,0 +1,22 @@
+{
+    "name": "electron-addtodesktop",
+    "version": "1.0.1",
+    "description": "Add Window to Desktop",
+    "main": "index.js",
+    "scripts": {
+        "test": "electron ."
+    },
+    "keywords": [
+        "electron"
+    ],
+    "author": "Sycamore",
+    "license": "MIT",
+    "dependencies": {
+        "bindings": "^1.5.0",
+        "node-addon-api": "^6.0.0"
+    },
+    "gypfile": true,
+    "devDependencies": {
+        "electron": "^24.0.0"
+    }
+}
