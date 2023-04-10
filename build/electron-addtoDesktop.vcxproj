@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E7BDA068-311E-D05D-7B34-000E6630BD7A}</ProjectGuid>
+    <ProjectGuid>{45D15D5B-D4B3-AC29-C3DD-5C8C347AC0FE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>electron-addtoDesktop</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -48,7 +48,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\include\node;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\src;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\config;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\openssl\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\uv\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\zlib;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\v8\include;C:\Users\Sycamore\Workplace\Electron\electron-Desktop-Icon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\include\node;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\src;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\config;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\openssl\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\uv\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\zlib;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\v8\include;C:\Users\Sycamore\Workplace\Electron\electron-addtodesktop\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
@@ -83,13 +83,13 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\include\node;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\src;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\config;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\openssl\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\uv\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\zlib;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\v8\include;C:\Users\Sycamore\Workplace\Electron\electron-Desktop-Icon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\include\node;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\src;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\config;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\openssl\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\uv\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\zlib;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\v8\include;C:\Users\Sycamore\Workplace\Electron\electron-addtodesktop\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=electron-addtoDesktop;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\include\node;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\src;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\config;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\openssl\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\uv\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\zlib;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\v8\include;C:\Users\Sycamore\Workplace\Electron\electron-Desktop-Icon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\include\node;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\src;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\config;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\openssl\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\uv\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\zlib;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\v8\include;C:\Users\Sycamore\Workplace\Electron\electron-addtodesktop\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <DisableSpecificWarnings>4351;4355;4800;4251;4275;4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -127,7 +127,7 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\include\node;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\src;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\config;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\openssl\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\uv\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\zlib;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\v8\include;C:\Users\Sycamore\Workplace\Electron\electron-Desktop-Icon\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\include\node;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\src;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\config;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\openssl\openssl\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\uv\include;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\zlib;C:\Users\Sycamore\AppData\Local\node-gyp\Cache\15.14.0\deps\v8\include;C:\Users\Sycamore\Workplace\Electron\electron-addtodesktop\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=electron-addtoDesktop;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
@@ -138,11 +138,11 @@
     <ClCompile Include="..\lib\addtoDesktop.cpp">
       <ObjectFileName>$(IntDir)\lib\addtoDesktop.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\Users\Sycamore\AppData\Roaming\nvm\v15.14.0\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
+    <ClCompile Include="C:\Users\Sycamore\AppData\Roaming\nvm\v15.14.0\node_modules\npm\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="node_modules\node-addon-api\nothing.vcxproj">
-      <Project>{718D77BA-4CF1-3D31-64EC-452066BF46EE}</Project>
+      <Project>{1D56E7DF-BFFD-18E0-B9FA-61A04FC9A883}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

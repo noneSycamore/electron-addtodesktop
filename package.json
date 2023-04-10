@@ -4,6 +4,7 @@
     "description": "Add Window to Desktop",
     "main": "index.js",
     "scripts": {
+        "install": "node-gyp configure rebuild",
         "test": "electron ."
     },
     "keywords": [
