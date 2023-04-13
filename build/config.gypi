@@ -81,14 +81,6 @@
     "want_separate_host_toolset": 0,
     "nodedir": "C:\\Users\\Sycamore\\AppData\\Local\\node-gyp\\Cache\\15.14.0",
     "standalone_static_library": 1,
-    "msbuild_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\MSBuild\\15.0\\Bin\\MSBuild.exe",
-    "cache": "C:\\Users\\Sycamore\\AppData\\Local\\npm-cache",
-    "globalconfig": "C:\\Program Files\\nodejs\\etc\\npmrc",
-    "init_module": "C:\\Users\\Sycamore\\.npm-init.js",
-    "metrics_registry": "https://registry.npmjs.org/",
-    "node_gyp": "C:\\Users\\Sycamore\\AppData\\Roaming\\nvm\\v15.14.0\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
-    "prefix": "C:\\Program Files\\nodejs",
-    "userconfig": "C:\\Users\\Sycamore\\.npmrc",
-    "user_agent": "npm/7.7.6 node/v15.14.0 win32 x64"
+    "msbuild_path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\MSBuild\\15.0\\Bin\\MSBuild.exe"
   }
 }
