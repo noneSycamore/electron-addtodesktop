@@ -50,11 +50,9 @@ Napi::Value Attach(const Napi::CallbackInfo &info)
         return env.Null();
     }
 
-    // 记录要插入的窗口
-    HWND insert_hWnd = NULL;
-
     // 获取Progman窗口句柄
-    HWND hWnd = FindWindow(_T("Progman"), _T("Program Manager"));
+    HWND desktopHwnd = GetDesktopWindow();
+    HWND hWnd = FindWindowEx(desktopHwnd, NULL, L"Progman", NULL);
     if (hWnd == NULL)
     {
         Napi::TypeError::New(env, "Unable to get desktop handle").ThrowAsJavaScriptException();
@@ -64,10 +62,14 @@ Napi::Value Attach(const Napi::CallbackInfo &info)
     SendMessage(hWnd, 0x052c, 0, 0);
     // 结构体初始化
     class_name = (windows_class *)malloc(sizeof(windows_class));
-    // WorkerW的子窗口
-    HWND childWindow_hwnd = NULL;
+    // num初始化
+    num = 0;
     // 枚举屏幕上所有窗口
     EnumWindows(EnumWindowsProc, 0);
+    // 记录要插入的窗口
+    HWND insert_hWnd = hWnd;
+    // WorkerW的子窗口
+    HWND childWindow_hwnd = NULL;
     // 循环比对找到->WorkerW类, 获取要嵌入窗口的句柄
     for (int i = 0; i < num; ++i)
     {
@@ -77,13 +79,6 @@ Napi::Value Attach(const Napi::CallbackInfo &info)
             if (childWindow_hwnd != NULL)
             {
                 insert_hWnd = class_name->win_hwnd;
-                char wname[256];
-                GetClassNameA(childWindow_hwnd, wname, sizeof(wname));
-                if (strncmp(wname, "SHELLDLL_DefView", strlen(wname)) != 0)
-                {
-                    Napi::TypeError::New(env, "Child Class Name is not SHELLDLL_DefView").ThrowAsJavaScriptException();
-                    return env.Null();
-                }
                 break;
             }
         }
